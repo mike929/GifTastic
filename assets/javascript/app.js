@@ -18,7 +18,7 @@ $(document).ready(function()
 			// jQUery syntax here... 
 			var a = $('<button type="button">') // This code $('<button>') is all jQuery needs to create the beginning and end tag. (<button></button>)
 			a.addClass('topicButton'); // Added a class 
-			a.addClass('btn btn-primary'); // Added a class 
+			a.addClass('btn btn-primary bg-secondary'); // Added a class 
 			a.attr('data-name', topics[i]); // Added a data-attribute
 			a.text(topics[i]); // Provided the initial button text
 			$('#topicsView').append(a); // Added the button to the HTML
@@ -65,7 +65,7 @@ $(document).ready(function()
 
 		$('#gifView').empty();
 		var topic = $(this).attr('data-name');
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=dc6zaTOxFJmzC&limit=10&offset=0";
+		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=bs9vkKG424aIXblJCtHK6kXO2IB3OMxa";
 
 
 		$.ajax({url: queryURL, method: 'GET'})
