@@ -1,10 +1,9 @@
 
 body{
-  background: url('../images/abstract-futuristic-geometric-background.jpg');
+  background: url('../images/abstract-futuristic-geometric-background.jpg') no-repeat center center fixed; 
   background-size: 100%;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   text-align: center !important;
-  font-family: sans-serif;
 }
 
 h1{
