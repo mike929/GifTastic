@@ -1,6 +1,6 @@
 
 body{
-  background: url('../images/abstract-futuristic-geometric-background.jpg')fixed;
+  background: url('../images/abstract-futuristic-geometric-background.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center !important;
@@ -40,15 +40,15 @@ p{
 }
 
 
-  /* Large desktop */
+  Large desktop */
 
 /* @media (min-width: 1200px) { ... } */
  
-/* Portrait tablet to landscape and desktop */
-/* @media (min-width: 768px) and (max-width: 979px) { ... } */
+Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... } */
  
-/* Landscape phone to portrait tablet */
-/* @media (max-width: 767px) { ... } */
+Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
  
-/* Landscape phones and down */
-/* @media (max-width: 480px) { ... } */
+Landscape phones and down
+@media (max-width: 480px) { ... }
