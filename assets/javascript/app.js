@@ -88,16 +88,16 @@ $(document).ready(function()
 
 				// Creates an element to have the rating displayed
 				var pOne = $('<p>').text( "Rating: " + rating.toUpperCase());
-				topicDiv.append(pOne);
+				topicDiv.prepend(pOne);
 
 				var image = $("<img>").attr("src", stillImage); //Passes still image link to the image src
 				image.attr("playsrc", playImage); //Creates playsrc attr and passes moving gif link to the image playsrc
 				image.attr("stopsrc", stillImage); //Creates stopsrc attr and passes still image link to the image stopsrc
 				
-				topicDiv.append(image);
+				topicDiv.prepend(image);
 
 				// Puts the entire topic above the previous celebrities.
-				$('#gifView').append(topicDiv);
+				$('#gifView').prepend(topicDiv);
 
 				image.addClass('playClickedGif'); // Added a class to image tag
 
