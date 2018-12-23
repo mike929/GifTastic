@@ -1,41 +1,16 @@
 
-
-#Backgrd{
-  margin: 20px;
-  width: 30%;
-  height: 30%;
-}
-
 body{
-  background: url('../images/asphalt2.jpg')fixed;
+  background: url('../images/abstract-futuristic-geometric-background.jpg')fixed;
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center !important;
   font-family: sans-serif;
 }
 
-#startme {
-  border-radius: 5%;
-  font-size: 20px;
-  background-color: rgb(200, 233, 14);
-  color: white;
-  padding: 10px 20px 10px 20px;
-}
-
-.row{
-  margin-bottom: 10px;
-}
-
-#timerDisplay{
-font-family: 'Lalezar', cursive;;
-font-size: 30px;
-}
-
 h1{
-  /* font-family: 'Tangerine', cursive; */
-  font-family: 'Tangerine', serif !important;
+  font-family: 'Lemon', serif !important;
   font-size: 85px !important;
-  color: white !important;
+  color: black !important;
   text-shadow: 4px 4px 4px #aaa;
   font-size: 60px;
   margin: 20px;
@@ -47,23 +22,23 @@ h2 {
 }
 
 p{
-  font-family: 'Tangerine', cursive;
-  font-size: 35px;
+  font-family: 'BioRhyme+Expanded', cursive;
+  font-size: 25px;
 
 }
 
-#question{
-  margin: 20px;
-  font-family: 'New Rocker', cursive;
-  font-size: 50px;
-
-  }
-
-#score{
-  font-family: 'Lalezar', cursive;;
-  font-size: 30px;
-
+.topicButton{
+	margin: 5px;
 }
+
+#topicInput{
+	margin-bottom: 5px;
+}
+
+#addTopic{
+	margin-bottom: 20px;
+}
+
 
   /* Large desktop */
 
