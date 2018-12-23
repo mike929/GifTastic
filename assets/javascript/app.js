@@ -2,7 +2,7 @@
 $(document).ready(function()
 {
 	// Initial array of topics
-	var topics = ['Dodge', 'Honda', 'Acura', 'BMW', 'Mercedes-Benz'];
+	var topics = ['Blackpanther', 'Miles Morales', 'Venom', 'Hulk', 'Deadpool'];
 
 	// Generic function for displaying topic data 
 	function renderButtons()
