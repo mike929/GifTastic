@@ -38,6 +38,7 @@
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
+
     /* //CSS */
     
   }
@@ -48,10 +49,7 @@
   */
   
   @media (min-width: 481px) and (max-width: 767px) {
-    header h1 {
-        margin-top: 0;
-		padding: .25em;
-		text-align: center;
+      
     
     /* //CSS */
     
