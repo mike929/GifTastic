@@ -17,6 +17,7 @@ This app uses the GIPHY API to make a dynamic web page that populates with gifs 
 
    
    Link to my Portfolio:
+   https://github.com/mike929/Bootstrap-Portfolio
 1. <a href="https://github.com/mike929/Bootstrap-Portfolio"></a>
 
 <br>
